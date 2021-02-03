@@ -1,0 +1,53 @@
+action: py37, msg: getenv
+cwd: /Users/adela/Desktop/AcademicPerformance/AcademicPerformance/packages/rf_model
+cmd: /Users/adela/Desktop/AcademicPerformance/AcademicPerformance/packages/rf_model/.tox/py37/bin/pip3 install -rrequirements.txt
+Collecting numpy<1.19.0,>=1.18.1 (from -r requirements.txt (line 6))
+  Using cached https://files.pythonhosted.org/packages/64/1e/982848d4e7b57ed06fbaed251a94d592cc59ebba83e454028f33866d4911/numpy-1.18.4-cp37-cp37m-macosx_10_9_x86_64.whl
+Collecting pandas<0.26.0,>=0.25.3 (from -r requirements.txt (line 7))
+  Using cached https://files.pythonhosted.org/packages/16/b5/bab3477466a4d9e705d40829ac65683155e7977acbc07f05b06fabded1be/pandas-0.25.3-cp37-cp37m-macosx_10_9_x86_64.whl
+Collecting scikit-learn<0.23.0,>=0.22.1 (from -r requirements.txt (line 8))
+  Using cached https://files.pythonhosted.org/packages/64/57/23176044d9371e1af286176fd61cf7f74ed46d0b99122624ab93b3f32715/scikit_learn-0.22.2.post1-cp37-cp37m-macosx_10_9_x86_64.whl
+Collecting joblib<0.15.0,>=0.14.1 (from -r requirements.txt (line 9))
+  Using cached https://files.pythonhosted.org/packages/28/5c/cf6a2b65a321c4a209efcdf64c2689efae2cb62661f8f6f4bb28547cf1bf/joblib-0.14.1-py2.py3-none-any.whl
+Collecting pytest<6.0.0,>=5.3.2 (from -r requirements.txt (line 12))
+  Using cached https://files.pythonhosted.org/packages/6c/f9/9f2b6c672c8f8bb87a4c1bd52c1b57213627b035305aad745d015b2a62ae/pytest-5.4.2-py3-none-any.whl
+Collecting setuptools<42.0.0,>=41.4.0 (from -r requirements.txt (line 15))
+  Using cached https://files.pythonhosted.org/packages/d9/de/554b6310ac87c5b921bc45634b07b11394fe63bc4cb5176f5240addf18ab/setuptools-41.6.0-py2.py3-none-any.whl
+Collecting wheel<0.34.0,>=0.33.6 (from -r requirements.txt (line 16))
+  Using cached https://files.pythonhosted.org/packages/00/83/b4a77d044e78ad1a45610eb88f745be2fd2c6d658f9798a15e384b7d57c9/wheel-0.33.6-py2.py3-none-any.whl
+Collecting python-dateutil>=2.6.1 (from pandas<0.26.0,>=0.25.3->-r requirements.txt (line 7))
+  Using cached https://files.pythonhosted.org/packages/d4/70/d60450c3dd48ef87586924207ae8907090de0b306af2bce5d134d78615cb/python_dateutil-2.8.1-py2.py3-none-any.whl
+Collecting pytz>=2017.2 (from pandas<0.26.0,>=0.25.3->-r requirements.txt (line 7))
+  Using cached https://files.pythonhosted.org/packages/4f/a4/879454d49688e2fad93e59d7d4efda580b783c745fd2ec2a3adf87b0808d/pytz-2020.1-py2.py3-none-any.whl
+Collecting scipy>=0.17.0 (from scikit-learn<0.23.0,>=0.22.1->-r requirements.txt (line 8))
+  Using cached https://files.pythonhosted.org/packages/85/7a/ae480be23b768910a9327c33517ced4623ba88dc035f9ce0206657c353a9/scipy-1.4.1-cp37-cp37m-macosx_10_6_intel.whl
+Collecting importlib-metadata>=0.12; python_version < "3.8" (from pytest<6.0.0,>=5.3.2->-r requirements.txt (line 12))
+  Using cached https://files.pythonhosted.org/packages/ad/e4/891bfcaf868ccabc619942f27940c77a8a4b45fd8367098955bb7e152fb1/importlib_metadata-1.6.0-py2.py3-none-any.whl
+Collecting packaging (from pytest<6.0.0,>=5.3.2->-r requirements.txt (line 12))
+  Using cached https://files.pythonhosted.org/packages/46/19/c5ab91b1b05cfe63cccd5cfc971db9214c6dd6ced54e33c30d5af1d2bc43/packaging-20.4-py2.py3-none-any.whl
+Collecting more-itertools>=4.0.0 (from pytest<6.0.0,>=5.3.2->-r requirements.txt (line 12))
+  Using cached https://files.pythonhosted.org/packages/06/b1/2dcadc4861c505a807d5c6d88928450fe5afcf352f205432572a10d74657/more_itertools-8.3.0-py3-none-any.whl
+Collecting wcwidth (from pytest<6.0.0,>=5.3.2->-r requirements.txt (line 12))
+  Using cached https://files.pythonhosted.org/packages/f6/d5/1ecdac957e3ea12c1b319fcdee8b6917ffaff8b4644d673c4d72d2f20b49/wcwidth-0.1.9-py2.py3-none-any.whl
+Collecting attrs>=17.4.0 (from pytest<6.0.0,>=5.3.2->-r requirements.txt (line 12))
+  Using cached https://files.pythonhosted.org/packages/a2/db/4313ab3be961f7a763066401fb77f7748373b6094076ae2bda2806988af6/attrs-19.3.0-py2.py3-none-any.whl
+Collecting py>=1.5.0 (from pytest<6.0.0,>=5.3.2->-r requirements.txt (line 12))
+  Using cached https://files.pythonhosted.org/packages/99/8d/21e1767c009211a62a8e3067280bfce76e89c9f876180308515942304d2d/py-1.8.1-py2.py3-none-any.whl
+Collecting pluggy<1.0,>=0.12 (from pytest<6.0.0,>=5.3.2->-r requirements.txt (line 12))
+  Using cached https://files.pythonhosted.org/packages/a0/28/85c7aa31b80d150b772fbe4a229487bc6644da9ccb7e427dd8cc60cb8a62/pluggy-0.13.1-py2.py3-none-any.whl
+Collecting six>=1.5 (from python-dateutil>=2.6.1->pandas<0.26.0,>=0.25.3->-r requirements.txt (line 7))
+  Using cached https://files.pythonhosted.org/packages/ee/ff/48bde5c0f013094d729fe4b0316ba2a24774b3ff1c52d924a8a4cb04078a/six-1.15.0-py2.py3-none-any.whl
+Collecting zipp>=0.5 (from importlib-metadata>=0.12; python_version < "3.8"->pytest<6.0.0,>=5.3.2->-r requirements.txt (line 12))
+  Using cached https://files.pythonhosted.org/packages/b2/34/bfcb43cc0ba81f527bc4f40ef41ba2ff4080e047acb0586b56b3d017ace4/zipp-3.1.0-py3-none-any.whl
+Collecting pyparsing>=2.0.2 (from packaging->pytest<6.0.0,>=5.3.2->-r requirements.txt (line 12))
+  Using cached https://files.pythonhosted.org/packages/8a/bb/488841f56197b13700afd5658fc279a2025a39e22449b7cf29864669b15d/pyparsing-2.4.7-py2.py3-none-any.whl
+Installing collected packages: numpy, six, python-dateutil, pytz, pandas, scipy, joblib, scikit-learn, zipp, importlib-metadata, pyparsing, packaging, more-itertools, wcwidth, attrs, py, pluggy, pytest, setuptools, wheel
+  Found existing installation: setuptools 41.0.1
+    Uninstalling setuptools-41.0.1:
+      Successfully uninstalled setuptools-41.0.1
+  Found existing installation: wheel 0.33.4
+    Uninstalling wheel-0.33.4:
+      Successfully uninstalled wheel-0.33.4
+Successfully installed attrs-19.3.0 importlib-metadata-1.6.0 joblib-0.14.1 more-itertools-8.3.0 numpy-1.18.4 packaging-20.4 pandas-0.25.3 pluggy-0.13.1 py-1.8.1 pyparsing-2.4.7 pytest-5.4.2 python-dateutil-2.8.1 pytz-2020.1 scikit-learn-0.22.2.post1 scipy-1.4.1 setuptools-41.6.0 six-1.15.0 wcwidth-0.1.9 wheel-0.33.6 zipp-3.1.0
+WARNING: You are using pip version 19.1.1, however version 20.1.1 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.

@@ -1,0 +1,10 @@
+action: py37, msg: getenv
+cwd: /Users/adela/Desktop/AcademicPerformance/AcademicPerformance/packages/rf_model/.tox
+cmd: /Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python -m virtualenv --no-download --python /Library/Frameworks/Python.framework/Versions/3.7/bin/python3.7 py37
+Already using interpreter /Library/Frameworks/Python.framework/Versions/3.7/bin/python3.7
+Using base prefix '/Library/Frameworks/Python.framework/Versions/3.7'
+New python executable in /Users/adela/Desktop/AcademicPerformance/AcademicPerformance/packages/rf_model/.tox/py37/bin/python3.7
+Also creating executable in /Users/adela/Desktop/AcademicPerformance/AcademicPerformance/packages/rf_model/.tox/py37/bin/python
+Installing setuptools, pip, wheel...
+done.
+Running virtualenv with interpreter /Library/Frameworks/Python.framework/Versions/3.7/bin/python3.7
